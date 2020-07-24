@@ -9,4 +9,13 @@ class Teacher < ActiveRecord::Base
             false
         end
     end
+
+    def grade_class
+        GradeLevel.all.select{|g|g.teacher_id==self.id}
+    end
+
+    def students
+        #this needs to be touched up on
+    end
+
 end

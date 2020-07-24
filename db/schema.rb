@@ -10,7 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_07_24_160103) do
+ActiveRecord::Schema.define(version: 2020_07_24_181906) do
+
+  create_table "accessories", force: :cascade do |t|
+    t.string "name"
+    t.string "des"
+  end
+
+  create_table "backpacks", force: :cascade do |t|
+    t.string "name"
+    t.integer "size"
+  end
 
   create_table "grade_levels", force: :cascade do |t|
     t.string "grade_level"
