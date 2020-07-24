@@ -14,4 +14,8 @@ class Student < ActiveRecord::Base
         g = GradeLevel.all.select {|level| level.grade_level == grade}
         g.map {|i| i.student}
     end
+
+    def grade 
+    end
+    
 end
