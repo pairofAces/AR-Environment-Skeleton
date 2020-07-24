@@ -38,3 +38,13 @@
 # end
 
 # - My mistake earlier was that I was putting this method in the create_teacher Class.
+
+
+
+
+
+# What changes did you make to your app? Why? 
+
+#    - I had to incorporate other classes not explicitly mentioned in the deliverables.
+#    For example, the grade_level class within the app/models directory as well 
+#    as 3 additional files within the db/migrate: create_grade_level, add_column, delete_column.
